@@ -4,14 +4,12 @@ body{
 
     /* Navbar */
     .box1{
-        height: 15vh;
+        height: 20vh;
+        background-color: aqua;
     }
-        .box1-1{
-            background-color: aqua;
-        }
-        .box1-2{
-            background-color: blue;
-        }
     /* Cuerpo central  */
 
     /* Footer  */
+        .box2{
+        background-color: aqua;
+    }
