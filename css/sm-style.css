@@ -1,15 +1,27 @@
 body{
-    background-color: black;
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+    /* background-image: url(../assets/rough-limestone-coursed-ashlar-628f9366316c2-1200.jpg); */
+    
+    background-color: rgb(20, 20, 20);
+
 }
 
     /* Navbar */
     .box1{
-        height: 20vh;
-        background-color: aqua;
+        height: 15vh;
+        background-image: url(../assets/rough-limestone-coursed-ashlar-628f9366316c2-1200.jpg);
     }
+        .button-m{
+            width: 100%;
+        }
     /* Cuerpo central  */
-
+    .box2{
+        background-color: rgb(0, 0, 0);
+        margin: 0%;
+    }
     /* Footer  */
-        .box2{
-        background-color: aqua;
+    .box3{
+        background-color: rgb(20, 20, 20);
     }

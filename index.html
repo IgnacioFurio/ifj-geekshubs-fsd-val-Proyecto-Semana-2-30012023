@@ -7,7 +7,8 @@
     <title>Romani Ite Domum</title>
     <link 
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
-        rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+        rel="stylesheet" 
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
         crossorigin="anonymous">
     <link rel="stylesheet" 
     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
@@ -15,33 +16,33 @@
     href="./css/sm-style.css">
 </head>
 <body>
-    <div>
+    <div class="container-fluid">
         <!-- navbar  -->
-        <div class="row sticky-top">
+        <div class="row sticky-top box1">
             <!-- collapse navbar -->
-            <div class="col-12 p-0 ms-2">
+            <div class="col-12 p-0">
                 <div class="collapse" id="navbarToggleExternalContent">
-                    <div class="bg-dark p-4">
+                    <div class="bg-dark">
                         <ul class="list-group">
                             <li class="list-group-item list-group-item-dark">
                                 <a href="index.html">
-                                    <p>
-                                        Inicio
-                                    </p>
+                                    <button type="button" class="button-m btn btn-secondary">
+                                        <h6>Inicio</h6>
+                                    </button>
                                 </a>
                             </li>
                             <li class="list-group-item list-group-item-dark">
                                 <a href="./pages/carta.html">
-                                    <p>
-                                        Carta
-                                    </p>
+                                    <button type="button" class="button-m btn btn-secondary">
+                                        <h6>Carta</h6>
+                                    </button>
                                 </a>
                             </li>
                             <li class="list-group-item list-group-item-dark">
                                 <a href="./pages/reservas.html">
-                                    <p>
-                                        Reservas
-                                    </p>
+                                    <button type="button" class="button-m btn btn-secondary">
+                                        <h6>Reservas</h6>
+                                    </button>
                                 </a>
                             </li>
                         </ul>
@@ -56,131 +57,134 @@
                 </nav>
             </div>
             <!-- Restaurant Name  -->
-            <div class="col-12 box1">Romani Ite Domum</div>
-        </div>
-        <!-- Main -->
-        <!-- Entrance picture  -->
-        <div class="row mt-5 my-3">
-            <div class="col-1"></div>
-            <div class="col-10"><img src="./assets/home1.jpg" class="img-fluid rounded" alt=""></div>
-            <div class="col-1"></div>
-        </div>
-        <!-- Intro  --> 
-        <div class="row my-3">
-            <div class="col-1"></div>
-            <div class="col-10">                
-                <div>
-                    <p>
-                        ¿Que han hecho los romanos por nosotros?
-                    </p>
-                </div>
-                <div>
-                    <p>
-                    Es posible que alguna vez te hayas hecho esta pregunta, y si te paras a 
-                    reflexionar, es posible que te vengan a la mente una o dos cosas como los
-                    acueductos, el sistema de alcantarillado, o el vino (!Viva el vino¡). Pero 
-                    si como nosotros estás hasta las narices de la represión de esos malditos
-                    romanos, entra a nuestro local y grita ¡ROMANES EUNT DOMUS!.
-                    </p>
-                </div> 
+            <div class="col-12 box1 d-flex align-items-center">
+                <img class="img-fluid" src="./assets/Romanit ite Domum.png" alt="">
             </div>
-            <div class="col-1"></div>
         </div>
-        <!-- Food picture  -->
-        <div class="row my-3">
-            <div class="col-1"></div>
-            <div class="col-10"><img class="img-fluid" src="./assets/home2.jpg" alt=""></div>
-            <div class="col-1"></div>
-        </div>
-        <!-- Restaurant -->
-        <div class="row my-3">
-            <div class="col-1"></div>
-            <div class="col-10">                
-                <div>
-                    <p>
-                        Bienaventurados los gansos.
-                    </p>
-                </div>
-                <div>
-                    <p>
-                        Así que has decidido curiosear un poco, muy bien, pues entonces te damos 
-                        la bienvenida a la sede del Frente Popular de Judea, aquí podrás disfrutar
-                        de una gran variedad de platos nada aprobados por el Imperio Romano. ¡Y 
-                        totalmente libre de clavos!. Venga, reserva una mesa y ve pegándole un ojo
-                        a la carta, pero cuidado no se te haga la boca agua.
-                    </p>
-                </div> 
+        <!-- Main -->        
+        <div class="box2 px-0 rounded">
+            <!-- Entrance picture  -->
+            <div class="row mt-5 pt-4">
+                <div class="col-1"></div>
+                <div class="col-10"><img src="./assets/home1.jpg" class="img-fluid rounded" alt=""></div>
+                <div class="col-1"></div>
             </div>
-            <div class="col-1"></div>
-        </div>
-        <!-- Drinks picture  -->
-        <div class="row my-3">
-            <div class="col-1"></div>
-            <div class="col-10"><img class="img-fluid" src="./assets/home3.jpg" alt=""></div>
-            <div class="col-1"></div>
-        </div>
-        <!-- Pub -->
-        <div class="row my-3">
-            <div class="col-1"></div>
-            <div class="col-10">                
-                <div>
-                    <p>
-                        ¿Y qué hacéis dando vueltas alrededor de un pesebre a las dos de la mañana?
-                    </p>
+            <!-- Intro  --> 
+            <div class="row my-3">
+                <div class="col-1"></div>
+                <div class="col-10">                
+                    <div>
+                        <p>
+                            ¿Que han hecho los romanos por nosotros?
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                        Es posible que alguna vez te hayas hecho esta pregunta, y si te paras a 
+                        reflexionar, es posible que te vengan a la mente una o dos cosas como los
+                        acueductos, el sistema de alcantarillado, o el vino (!Viva el vino¡). Pero 
+                        si como nosotros estás hasta las narices de la represión de esos malditos
+                        romanos, entra a nuestro local y grita ¡ROMANES EUNT DOMUS!.
+                        </p>
+                    </div> 
                 </div>
-                <div>
-                    <p>
-                        Cuidado no te vean los guardias, corre, pasa aquí, y no dudes en pedir algo
-                        para refrescar el gaznate. Quizás te apetezca una buena cerveza de nuestro
-                        amplio catálogo, o a lo mejor te interese más algún exótico cóctel traido
-                        de lejanas tierras, y si lo preguntas en voz bajita, incluso puede que 
-                        encontremos algún vino romano.
-                    </p>
-                </div> 
+                <div class="col-1"></div>
             </div>
-            <div class="col-1"></div>
-        </div>
-        <!-- Outside picture  -->
-        <div class="row my-3">
-            <div class="col-1"></div>
-            <div class="col-10"><img class="img-fluid" src="./assets/home4.jpg" alt=""></div>
-            <div class="col-1"></div>
-        </div>
-        <!-- Outside -->
-        <div class="row my-3">
-            <div class="col-1"></div>
-            <div class="col-10">                
-                <div>
-                    <p>
-                        La crucifixión no me asusta, por lo menos es al aire libre.
-                    </p>
+            <!-- Food picture  -->
+            <div class="row my-3">
+                <div class="col-1"></div>
+                <div class="col-10"><img class="img-fluid rounded" src="./assets/home2.jpg" alt=""></div>
+                <div class="col-1"></div>
+            </div>
+            <!-- Restaurant -->
+            <div class="row my-3">
+                <div class="col-1"></div>
+                <div class="col-10">                
+                    <div>
+                        <p>
+                            Bienaventurados los gansos.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Así que has decidido curiosear un poco, muy bien, pues entonces te damos 
+                            la bienvenida a la sede del Frente Popular de Judea, aquí podrás disfrutar
+                            de una gran variedad de platos nada aprobados por el Imperio Romano. ¡Y 
+                            totalmente libre de clavos!. Venga, reserva una mesa y ve pegándole un ojo
+                            a la carta, pero cuidado no se te haga la boca agua.
+                        </p>
+                    </div> 
                 </div>
-                <div>
-                    <p>
-                        Si como Matías prefieres hacer actividades al aire libre, no te preocupes,
-                        disponemos de una pequeña parcela dónde podrás disfrutar de todo lo anterior
-                        y de la suave brisa Valenciana. Descansa tus piernas grises, dale un respiro 
-                        tus nublados oídos y deleita tus ojos temblorosos en un ambiente libre de 
-                        romanos.
-                    </p>
-                </div> 
+                <div class="col-1"></div>
             </div>
-            <div class="col-1"></div>
+            <!-- Drinks picture  -->
+            <div class="row my-3">
+                <div class="col-1"></div>
+                <div class="col-10"><img class="img-fluid rounded" src="./assets/home3.jpg" alt=""></div>
+                <div class="col-1"></div>
+            </div>
+            <!-- Pub -->
+            <div class="row my-3">
+                <div class="col-1"></div>
+                <div class="col-10">                
+                    <div>
+                        <p>
+                            ¿Y qué hacéis dando vueltas alrededor de un pesebre a las dos de la mañana?
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Cuidado no te vean los guardias, corre, pasa aquí, y no dudes en pedir algo
+                            para refrescar el gaznate. Quizás te apetezca una buena cerveza de nuestro
+                            amplio catálogo, o a lo mejor te interese más algún exótico cóctel traido
+                            de lejanas tierras, y si lo preguntas en voz bajita, incluso puede que 
+                            encontremos algún vino romano.
+                        </p>
+                    </div> 
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <!-- Outside picture  -->
+            <div class="row my-3">
+                <div class="col-1"></div>
+                <div class="col-10"><img class="img-fluid rounded" src="./assets/home4.jpg" alt=""></div>
+                <div class="col-1"></div>
+            </div>
+            <!-- Outside -->
+            <div class="row my-3">
+                <div class="col-1"></div>
+                <div class="col-10">                
+                    <div>
+                        <p>
+                            La crucifixión no me asusta, por lo menos es al aire libre.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Si como Matías prefieres hacer actividades al aire libre, no te preocupes,
+                            disponemos de una pequeña parcela dónde podrás disfrutar de todo lo anterior
+                            y de la suave brisa Valenciana. Descansa tus piernas grises, dale un respiro 
+                            tus nublados oídos y deleita tus ojos temblorosos en un ambiente libre de 
+                            romanos.
+                        </p>
+                    </div> 
+                </div>
+                <div class="col-1"></div>
+            </div>
         </div>
-
         <!-- Footer -->
-        <div class="row box2">
+        <div class="row box3">
             <!-- Location 1  -->
             <div class="col-12 col-lg-6 d-flex justify-content-center">
                 <div class="col-1"></div>
-                <div class="col-3 mx-2 d-flex align-items-center justify-content-end">
-                    <i class="bi bi-geo-alt fs-1"></i>
+                <div class="col-3 d-flex align-items-center justify-content-end px-2">
+                    <i class="bi bi-geo-alt fs-2 text-secondary-emphasis"></i>
                 </div>
-                <div class="col-7 mx-2">
-                    <p class="my-2">
+                <div class="col-7 px-2">
+                    <p class="my-2 fs-5 text-secondary-emphasis">
                         Zona Aragón
                     </p>
-                    <p class="my-2">
+                    <p class="my-2 text-secondary-emphasis">
                         Calle Santa Rosa 3, 46021, Valencia.
                     </p>
                 </div>
@@ -189,14 +193,14 @@
             <!-- Location 2  -->
             <div class="col-12 col-lg-6 d-flex justify-content-center">
                 <div class="col-1"></div>
-                <div class="col-3 mx-2 d-flex align-items-center justify-content-end">
-                    <i class="bi bi-geo-alt fs-1"></i>
+                <div class="col-3 d-flex align-items-center justify-content-end px-2">
+                    <i class="bi bi-geo-alt fs-2 text-secondary-emphasis"></i>
                 </div>
-                <div class="col-7 mx-2">
-                    <p class="my-2">
+                <div class="col-7 px-2">
+                    <p class="my-2 fs-5 text-secondary-emphasis">
                         Zona Ensanche
                     </p>
-                    <p class="my-2">
+                    <p class="my-2 text-secondary-emphasis">
                         Gran Vía Germanías 29, 46006 Valencia.
                     </p>
                 </div>
@@ -204,15 +208,14 @@
             </div>
             <!-- Phone number  -->
             <div class="col-1"></div>
-            <div class="col-3 col-lg-1 p-0 d-flex align-items-center justify-content-end">
-                <i class="bi bi-telephone fs-3 my-2 mx-2"></i>
+            <div class="col-3 col-lg-1 fs-3 p-0 px-2 d-flex align-items-center justify-content-end">
+                <i class="bi bi-telephone my-2 text-secondary-emphasis"></i>
             </div> 
-            <div class="col-7 col-lg-9 p-0 d-flex align-items-center">
-                <p class="mx-2 my-0">+34 722 183 467</p>
+            <div class="col-7 col-lg-9 p-0 d-flex align-items-center px-2">
+                <p class="my-0 fs-5 text-secondary-emphasis">+34 722 183 467</p>
             </div>
             <div class="col-1"></div>
         </div>
-    </div>
     </div>
     <script 
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
