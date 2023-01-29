@@ -2,8 +2,7 @@ body{
     overflow-x: hidden;
     padding: 0px;
     margin: 0px;
-    /* background-image: url(../assets/rough-limestone-coursed-ashlar-628f9366316c2-1200.jpg); */
-    
+    /* background-image: url(../assets/rough-limestone-coursed-ashlar-628f9366316c2-1200.jpg); */    
     background-color: rgb(20, 20, 20);
 
 }
@@ -19,9 +18,19 @@ body{
     /* Cuerpo central  */
     .box2{
         background-color: rgb(0, 0, 0);
-        margin: 0%;
+        min-height: 60vh;
     }
     /* Footer  */
     .box3{
         background-color: rgb(20, 20, 20);
     }
+
+.test1{background-color: aqua;}
+.test2{background-color: blue;}
+.test3{background-color: blueviolet;}
+.test4{background-color: brown;}
+.test5{background-color: burlywood;}
+.test6{background-color: cadetblue;}
+.test7{background-color: chartreuse;}
+.test8{background-color: chocolate;}
+.test9{background-color: crimson;}
