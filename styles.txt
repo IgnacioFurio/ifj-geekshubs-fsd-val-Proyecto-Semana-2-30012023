@@ -3,3 +3,7 @@ HEAD
 collapse navbar
 
     breakpoint -lg
+    breakpoint -md only for Footer
+
+    <h6 class="text-danger-emphasis text-uppercase text-center"></h6>
+    <p class="text-secondary-emphasis"></p>
