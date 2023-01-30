@@ -5,7 +5,7 @@
   - [2 Tecnologías / Technologies](#2-tecnologías--technologies)
   - [3 Previsualización / Preview](#3-previsualización--preview)
   - [4 Personalización / Customization](#4-personalización--customization)
-- [5 Contacto / Contact](#5-contacto--contact)
+  - [5 Contacto / Contact](#5-contacto--contact)
 
 ## 1 Acerca del proyecto / About this project
 Este es el segundo proyecto realizado para Geeks Hubs Academy. Esta vez hemos desarrollado una página web de un restaurante para que sea totalmente "responsive". Mi proyecto consta de cuatro páginas, "index", "carta", "cervezas" y "reservas". He decidido hacerle una mejora visual a la página oficial del restaurante "La Birra de Brian", un lugar ambientado en la película de los Monty Python "Brian's Life".
@@ -55,7 +55,7 @@ I customized the imported styles from Bootstrap V.5.3.0 with a few minnor altera
     <h6 class="text-danger-emphasis text-uppercase text-center"></h6>
     <p class="text-secondary-emphasis"></p>
 
-# 5 Contacto / Contact
+## 5 Contacto / Contact
 
 - E-mail: bichoifj@gmail.com
 - GitHub: https://github.com/IgnacioFurio
